@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 exports.connectToMongo = () => {
 
-    const url = "mongodb+srv://nikhil0951:w1dhw1nikhil1257@cluster0.dkuaae0.mongodb.net/excelData?retryWrites=true&w=majority"
+    const url = "mongoDburlString"
 
     mongoose.connect(url).then(() => {
         console.log("Connected to data base")
